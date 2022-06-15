@@ -58,3 +58,10 @@ app.post("/login", (req, res) => {
         res.sendStatus(400)
       })
   })
+
+  // lyrics
+  app.get("/lyrics", async (req, res) => {
+
+  })
+  
+  app.listen(3001)
